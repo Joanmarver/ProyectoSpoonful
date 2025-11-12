@@ -118,23 +118,35 @@ body {
     border-bottom-color: #ff8c00;
   }
 
-  /* Estilos simples y elegantes para las tarjetas */
-  .tarjeta {
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 8px;
-    padding: 3rem;
-    margin: 2rem auto;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    max-width: 1400px;
+
+.tarjeta {
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     gap: 3rem;
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 3rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
-  }
+    height: 400px;
+    box-sizing: border-box;
+}
 
-  .tarjeta:hover {
+
+.tarjeta-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    min-height: 100%;
+}
+
+
+.tarjeta:hover {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     border-color: #ff8c00;
     background: rgba(0, 0, 0, 0.8);
@@ -148,15 +160,10 @@ body {
     flex-shrink: 0;
   }
 
-  .tarjeta-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
 
-  .tarjeta h3 {
+
+
+.tarjeta h3 {
     font-family: Arial, sans-serif;
     font-size: 2rem;
     font-weight: 600;
@@ -229,6 +236,9 @@ body {
     margin: 0 auto;
     max-height: 90vh;
     overflow-y: auto;
+      flex-wrap: wrap; /* para que no se salgan de la fila */
+      justify-content: center; /* centra las tarjetas */
+      gap: 2rem;
   }
 
   /* Responsive para móviles */

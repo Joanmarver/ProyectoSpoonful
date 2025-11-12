@@ -6,7 +6,7 @@
         "ingredientes": ["40 ml de Vodka", "20 ml Sirope maracuyá", "80 ml Srub maracuyá", "Media lima"],
         "preparacion": "Colocar ingredientes en el shaker y mezclar con hielo. Servir en copa coctel y decorar junto con la copa de cava",
         "decoracion": ["Garnish de deshidratado y hierbabuena", "Copa de cava"],
-        "imagen": "../img/imagen.webp"
+        "imagen": "/img/imagen.webp"
       },
       {
         "id": 2,
@@ -14,7 +14,7 @@
         "ingredientes": ["50 ml Vodka Vainilla", "10 ml triple seco", "15 ml Sirope de gengibre","15 ml Sirope de pepino", "Media lima", "20 ml zumo de limón","ginger beer"],
         "preparacion": "Colocar ingredientes en el shaker excepto ginger beer y mezclar con hielo. Servir en jarra pequeña y añadir ginger beer.",
         "decoracion": ["Rodaja fina de pepino y hierbabuena"],
-        "imagen": " "
+        "imagen": "./img/imagen.webp"
       },
       {
         "id": 3,
@@ -22,7 +22,7 @@
         "ingredientes": ["50 ml whisky infusionado con te chai", "10 ml ponche","angostura chocolate", "20 ml sirope simple"],
         "preparacion": "Remover ingredientes en vaso mezclador y colocar en una petaca",
         "decoracion": ["Vaso old Fashioned con roca grande y datil como decoración. Servir con un poco de chocolate"],
-        "imagen": " "
+        "imagen": "./img/imagen.webp"
       },
       {
         "id": 4,
@@ -30,7 +30,7 @@
         "ingredientes": ["50 ml Vodka", "10 ml triple seco", "120 ml zumo arandanos","30 ml sirope de fresa", "1 lima entera", "Soda pomelo"],
         "preparacion": "Colocar ingredientes en el shaker excepto la soda y mezclar con hielo. Servir en taza de metal y añadir la soda de pomelo.",
         "decoracion": ["Garnish con un deshidratado y hierbabuena"],
-        "imagen": " "
+        "imagen":"./img/imagen.webp"
       },
        {
         "id": 5,
