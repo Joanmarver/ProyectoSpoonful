@@ -6,7 +6,7 @@ function crearTarjeta(receta) {
 
     // Imagen del cóctel
     const img = document.createElement('img');
-    img.src = receta.imagen || '../img/bartender.jpg'; // Imagen por defecto
+    img.src = receta.imagen || '/img/bartender.jpg'; // Imagen por defecto
     img.alt = receta.nombre;
   
     // Contenedor de contenido
