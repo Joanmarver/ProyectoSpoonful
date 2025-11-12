@@ -1,4 +1,4 @@
-const API_URL = '/data/recetas.json'; // nuestro JSON con secciones
+const API_URL = './data/recetas.json'; // nuestro JSON con secciones
 let todasRecetas = {}; // guardamos todo el JSON para usarlo después
 
 async function cargarRecetas() {
